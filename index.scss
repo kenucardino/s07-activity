@@ -1,0 +1,110 @@
+@use 'defaults';
+@use 'sass:math';
+
+$default-letter-space : 10px;
+
+@mixin borders($border-color: navy) {
+    border-width: 2px;
+    border-style: solid;
+    border-color: $border-color;
+}
+
+%center-text {
+    text-align: center;
+
+}
+nav {
+    background-color: white;
+}
+
+a:hover {
+    background-color: #b4d6de;
+}
+
+div {
+    display: inline-block;
+    float: right;
+}
+
+h1 {
+    color: yellow !important;
+    @extend %center-text; 
+    font-size: 2rem;
+}
+
+/*landing section*/
+section {
+    height: 100vh;
+    @extend %center-text; 
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#zuitt-motto {
+    letter-spacing: $default-letter-space;
+}
+
+h3 {
+    letter-spacing: $default-letter-space;
+}
+
+h3 + img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.offering-item {
+    text-transform: uppercase;
+}
+
+#bootcamp-learning-list{
+    li{
+        color: #075966;
+    }
+}
+
+h2 ~ a, a {
+    text-decoration: none;
+}
+
+form {
+    @include borders($border-color: black);
+    @extend %center-text; 
+    background-color: white;
+    height: 185px;
+    width: 25vw;
+    position: relative;
+    left: 37.25%;
+}
+
+body > section > form > label {
+    color: rgb(0,0,128);
+}
+// body{
+//     section{
+//         form{
+//             label{
+//                 color: rgb(0,0,128);
+//             }
+//         }
+//     }
+// }
+
+input[required] {
+    @include borders($border-color: navy);
+    width: 90%;
+}
+
+button {
+    background-color: #cf0053;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}

@@ -1,0 +1,104 @@
+* {
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+form, section, h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: white;
+}
+
+a:hover {
+  background-color: #b4d6de;
+}
+
+div {
+  display: inline-block;
+  float: right;
+}
+
+h1 {
+  color: yellow !important;
+  font-size: 2rem;
+}
+
+/*landing section*/
+section {
+  height: 100vh;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+#zuitt-motto {
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 10px;
+}
+
+h3 + img {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.offering-item {
+  text-transform: uppercase;
+}
+
+#bootcamp-learning-list li {
+  color: #075966;
+}
+
+h2 ~ a, a {
+  text-decoration: none;
+}
+
+form {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  height: 185px;
+  width: 25vw;
+  position: relative;
+  left: 37.25%;
+}
+
+body > section > form > label {
+  color: navy;
+}
+
+input[required] {
+  border-width: 2px;
+  border-style: solid;
+  border-color: navy;
+  width: 90%;
+}
+
+button {
+  background-color: #cf0053;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=index.css.map */

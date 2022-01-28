@@ -1,0 +1,100 @@
+* {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navigation Bar*/
+nav {
+    background-color: white;
+}
+
+a:hover {
+    background-color: #b4d6de;
+}
+
+div {
+    display: inline-block;
+    float: right;
+}
+
+h1 {
+    color: yellow !important;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/*landing section*/
+section {
+    height: 100vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#zuitt-motto {
+    letter-spacing: 5px;
+}
+
+h3 {
+    letter-spacing: 25px;
+}
+
+h3 + img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.offering-item {
+    text-transform: uppercase;
+}
+
+#bootcamp-learning-list li {
+    color: #075966;
+}
+
+h2 ~ a, a {
+    text-decoration: none;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    height: 185px;
+    width: 25vw;
+    position: relative;
+    left: 37.25%;
+}
+
+body > section > form > label {
+    color: rgb(0,0,128);
+}
+
+input[required] {
+    border-width: 2px;
+    border-style: solid;
+    border-color: navy;
+    width: 90%;
+}
+
+button {
+    background-color: #cf0053;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+}
